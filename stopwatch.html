@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stopwatch/Clock</title>
+  <link rel="stylesheet" href="stopwatch-style.css" />
+  <script src="stopwatch-script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch & Clock</h1>
+
+    <!-- Stopwatch -->
+    <div class="stopwatch">
+      <h2>Stopwatch</h2>
+      <div id="stopwatch-time">00:00:00</div>
+      <button id="start-stopwatch" onclick="toggleStopwatch()">Start</button>
+      <button id="reset-stopwatch" onclick="resetStopwatch()">Reset</button>
+    </div>
+
+    <!-- Clock -->
+    <div class="clock">
+      <h2>Current Time</h2>
+      <div id="current-time">Loading...</div>
+    </div>
+  </div>
+</body>
+</html>
